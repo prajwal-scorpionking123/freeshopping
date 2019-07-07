@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PRAJWAL PATIL</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/shapes.css">
+    <link rel="stylesheet" href="./css/cardsnav.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+  <style>
+  
+   .nav-item a:hover {
+            background-color: rgba(255, 208, 0, 0.952);
+            color: white !important;
+            cursor: pointer;
+        }
+        .activex{
+          background-color:  rgba(255, 208, 0, 0.952);
+        }
+        .card:hover{
+          background-color: whitesmoke;
+          border-color: yellow;
+        }
+        
+       
+   
+        
+     </style>
+  </head>
+<body>
+<nav  class="navbar navbar-expand-md navbar-light " style="background-color:orange;">
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="login.php"><i style="color:black;border-right: 1px solid #bbb;" class="fa fa-lock">Login</i> <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register.html"><i style="color:black;border-right: 1px solid #bbb;" class="fa fa-lock">Register</i></a>
+        </li>
+        <li class="nav-item">
+          <a style="border-right: 1px solid #bbb;" class="nav-link" href="#"><i style="color:black;"class="fa fa-graduation-cap">career with us</i></a>
+        </li>
+      </ul>
+      <ul  class="navbar-nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i style="color:black;border-right: 1px solid #bbb;" class="fa fa-facebook-official"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i style="color:black;border-right: 1px solid #bbb;" class="fa fa-linkedin-square"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i style="color:black;border-right: 1px solid #bbb;" class="fa fa-twitter"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i style="color:black;border-right: 1px solid #bbb;" class="fa fa-pinterest"></i></a>
+        </li>                   
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i style="color:black;border-right: 1px solid #bbb;" class="fa fa-google-plus"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i style="color:black;border-right: 1px solid #bbb;" class="fa fa-foursquare"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i style="color:black;border-right: 1px solid #bbb;" class="fa fa-instagram"></i></a>
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i style="color:black;border-right: 1px solid #bbb;" class="fa fa-youtube-square"></i></a>
+        </li>    
+      </ul>
+  </div>
+  
+</nav>
+<!-- secon -->
+<br>
+<div class="container">
+  <img src="./imgs/logo.png">         
+</div>
+<br><br>
+<header>
+<nav  class="navbar navbar-expand-md navbar-dark" style="background-color:navy;">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars2" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon "></span>
+  </button><br><br> 
+  <div class="collapse navbar-collapse" id="navbars2">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./freebie.html">Freebie</a>
+        </li>
+        <li class="nav-item">
+          <a  class="nav-link" href="./MobileRecharge.html">Mobile Recharge Offer</a>
+        </li>
+        <li class="nav-item">
+          <a  class="nav-link" href="./electronicoffer.html">Electronic Offer</a>
+        </li>
+        <li class="nav-item">
+          <a  class="nav-link" href="./restraurantoffer.html">Restaurent Offer</a>
+        </li>
+        <li class="nav-item">
+          <a  class="nav-link" href="./restraurantoffer.html">Travel Offer</a>
+        </li>
+        <li class="nav-item ">
+          <a  class="nav-link " href="./grocerisoffer.html">Groceries Offer</a>
+        </li>
+       
+      </ul>
+  </div>
+  <a class="navbar-brand arrow_box" href="./studentdisccount.html">Student Discount</a>
+</nav>
+</header>
+<!-- header jumbotron -->
+<div class="jumbotron jumbotron-fluid" 
+style=" margin: 0px;background:linear-gradient( rgba(70, 104, 197, 0.247),rgba(125, 250, 250, 0.45)),url(./imgs/finallogo1.jpg);
+background-repeat: repeat;background-attachment: fixed;color:white !important;">
+<div class = "container">
+  <div class="row">
+    <div class="col-md-6"><h3>SIGN UP</h3></div>  
+    <div class="col-md-6" style="font-size: 30px;"><center><a href="index.html"><i class="fa fa-home" style="font-size: 35px;color:rgb(238, 255, 0);"></i></a>/SignIn</center></div>
+  </div>
+</div>  
+</div>  
+        
+<!--heading Registration  -->
+<div class="jumbotron">
+        <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+    <h1>Login</h1>
+                   </div>
+                   <div class="col-lg-6">
+    <form class="needs-validation" novalidate method="POST" action="./ctr_login.php">
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationCustomUsername">Username</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+              </div>
+              <input type="text" name="username" class="form-control" id="validationCustomUsername" placeholder="" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+             <div class="col-md-6 mb-3">
+                <label for="validationCustom03">Password</label>
+                <input type="password" name="password" class="form-control" id="validationCustom03" placeholder="" required>
+                <div class="invalid-feedback">
+                  please provide password
+                </div>
+              </div>
+        </div>        
+        <button class="btn btn-outline-primary" style="width: 200px;"name="sub"  type="submit">Login</button>
+      </form>
+      <?php
+       error_reporting(E_ERROR|E_PARSE);
+      
+       if($_GET['st']=='w')
+       {
+         echo "<br><div style=background-color:;color:red>
+        !Incorrect username or password
+       </div>";
+       }
+
+      ?>
+   
+    </div>
+    </div>
+    </div>
+      <script src='https://www.google.com/recaptcha/api.js'></script>
+      <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+      </script>
+</div>
+
+<!-- News and Stories -->
+<br>
+<div class="container">
+<center><h3>News and Stories</h3></center>
+</div>
+<br>
+<div class="container">
+ <div class="card-deck">
+    <div class="card" style="width: 18rem;">
+          <img src="./imgs/ttt-371x252.jpg">
+        <div class="card-body">
+            <h5>Hey There My Peeps</h5>
+          <i class="fa fa-camera"></i>uncategorized/ <i class="fa fa-user"></i> By Akansha Bhatt / <br><i class="fa fa-comment"></i>10,335 Comments
+<br>Hey There  Peeps, What Body Type Am I? Do I Look Like Her? Or Do I  Look Like That?, And ...
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="./imgs/modiji-371x252.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5>Startup India Action Plan : A Treat For Young Entrepreneurs</h5>
+            <i class="fa fa-camera"></i>uncategorized/ <i class="fa fa-user"></i> By Admin / <br><i class="fa fa-comment"></i>10,335 Comments
+            <br>
+          Startup India Action Plan : A Treat for Young Entrepreneurs   All those young guns who want to make a ...
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="./imgs/indian.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5>This Restaurant Inside An Italian Cave Is Like Living A Dream</h5>
+            <i class="fa fa-camera"></i>blog/ <i class="fa fa-user"></i> By Admin / <br><i class="fa fa-comment"></i>no Comments
+            <br>
+            It’s amazing to sit in a pleasant ambiance of a textured restaurant and enjoy thy food. But it would ...
+        </div>
+    </div>
+ </div>
+</div>
+<!-- supports -->
+<br>
+<div class="jumbotron" style="background-color: rgb(6, 6, 82);color: seashell">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+       
+        <ul style="list-style: none;">
+          <h3>Get Us to Know</h3>
+          <li>About Us</li>
+          <li>Our Team</li>  
+           <li>FAQ’S</li>
+           <li>Testimonials</li>
+          <li>Career With Us</li>
+          <li>Media Contact</li>
+          <li>Investors</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="col-sm">
+       
+       <ul style="list-style: none;">
+        <h3>Support</h3>
+       <li> Advertise With Us</li>
+       <li> Campus Ambassador</li>
+       <li> Feedback</li>
+       <li>  Win A Gift Cards</li>
+        <li>Terms & Conditions</li>
+      <li>  Privacy Policy</li>
+      </ul>
+      </div>
+      <div class="col-sm">
+        <h3>Never Miss out Exclusive Deals!</h3>
+        <input type="email" class="form-control" readonly placeholder="Your email Address"><br>
+        <input type="submit" class="btn btn-outline-primary">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- connect with us -->
+<div class="jumbotron" style="background-color: black;color:lavenderblush;">
+<center>Freeshopping.com Made With Love From INDIA.<br>
+All Rights Reserved. All Content, Trademarks And Logos Are Copyright Of Their Respective Owners.
+<br><br>
+<a href="#"><i class="fa fa-facebook-official" style="padding-right:5px;font-size:50px;color:#3b5999;text-shadow:2px 2px 4px #000000;"></i></a>
+<a href="#"><i style="padding-right:5px;font-size:50px;color:#55acee;text-shadow:2px 2px 4px #000000;" class="fa fa-twitter"></i></a>
+<a href="#"><i class="fa fa-linkedin-square" style="padding-right:5px;color:#0077B5;font-size:50px;text-shadow:2px 2px 4px #000000;"></i></a>
+<a href="#"><i class="fa fa-google-plus"style="padding-right:5px;font-size:50px;color:#dd4b39;text-shadow:2px 2px 4px #000000;"></i></a>
+<a href="#"><i class="fa fa-pinterest"style="padding-right:5px;font-size:50px;color:#bd081c;text-shadow:2px 2px 4px #000000;"></i></a>
+<a href="#"><i style="padding-right:5px;font-size:50px;color:#e4405f;text-shadow:2px 2px 4px #000000;" class="fa fa-instagram"></i></a>
+<a href="#"><i style="padding-right:5px;font-size:50px;color:#f94877;text-shadow:2px 2px 4px #000000;" class="fa fa-foursquare"></i></a>
+<a href="#"><i style="padding-right:5px;font-size:50px;color:#cd201f;text-shadow:2px 2px 4px #000000;" class="fa fa-youtube-square"></i></a>
+</center>
+</div>
+
+
+</body>
+</html>
